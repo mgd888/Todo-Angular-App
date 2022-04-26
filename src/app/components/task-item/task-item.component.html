@@ -1,0 +1,11 @@
+<div class="task">
+  <h3>
+    {{ task.text }}
+    <fa-icon
+      (click)="onDelete(task)"
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTrash"
+    ></fa-icon>
+  </h3>
+  <p>{{ task.day | date:'long'  }}</p>
+</div>

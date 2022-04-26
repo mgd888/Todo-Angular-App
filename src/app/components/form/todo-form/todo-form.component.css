@@ -1,0 +1,19 @@
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.formBtn{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

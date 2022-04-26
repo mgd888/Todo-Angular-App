@@ -1,0 +1,14 @@
+<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="todoName"> Todo Name </label>
+    <input id="todoName" type="text" formControlName="text" />
+  </div>
+  <div class="form-group">
+    <label for="deadline"> Task Deadline </label>
+    <input id="deadline" type="datetime-local" formControlName="day" />
+  </div>
+  <div class="formBtn">
+      <button class="btn" type="submit">Add Todo</button>
+  <!-- <app-button color="blue" text="Add" (btnClick)="onSubmit()"></app-button> -->
+</div>
+</form>
